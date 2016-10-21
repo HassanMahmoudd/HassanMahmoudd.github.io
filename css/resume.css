@@ -1,0 +1,237 @@
+body {
+    padding-bottom: 40px;
+    background: url('../images/resume-bg.png') center 48% no-repeat fixed;
+}
+
+hr {
+    border-color: #aaa;
+    background-color: #aaa;
+    color: #aaa
+}
+
+.navbar-custom .links li {
+    color: #000;
+    text-decoration: none
+}
+
+
+.navbar-custom .links li {
+    display: inline-block;
+    padding: 10px 0;
+    margin: 0 10px;
+    border-bottom: 2px solid transparent;
+    cursor: auto;
+    text-shadow: none;
+    font-size: 25px
+}
+
+.resume-header {
+    margin-top: 70px
+}
+
+.resume-header .container {
+    text-align: center;
+}
+
+.resume-header-row {
+    height: 250px
+}
+
+.resume-header .resume-photo {
+    height: 100%;
+}
+
+.resume-header .resume-photo img {
+    height: 100%;
+}
+
+.resume-header h1 {
+    font-weight: bold;
+    margin-bottom: 0
+}
+
+.personal {
+    margin-top: 40px
+}
+
+.personal .personal-data {
+    padding: 40px 20px;
+    border: 1px solid #000;
+    width: 49%;
+    margin-right: 2%
+    
+}
+
+.personal .personal-data i {
+    margin-right: 20px
+}
+
+.personal .personal-data .title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 40px
+}
+
+.personal .personal-data .specs .labelname {
+    font-weight: bold
+}
+
+.personal .personal-data .specs .row:not(:last-of-type) {
+    margin-bottom: 20px
+}
+
+.personal .personal-data .specs a {
+    text-decoration: none;
+    color: #000
+}
+
+.personal .education {
+    padding: 40px 20px;
+    border: 1px solid #000;
+    width: 49%;
+    height: 450px
+    
+}
+
+.personal .education i {
+    margin-right: 20px
+}
+
+.personal .education .title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 40px
+}
+
+.personal .education .specs .labelname {
+    margin-bottom: 30px
+}
+
+.personal .education .specs .row:not(:last-of-type) {
+    margin-bottom: 20px
+}
+
+.personal .experience {
+    padding: 40px 20px;
+    border: 1px solid #000;
+    //width: 49%;
+    //height: 450px
+    
+}
+
+.personal .experience i {
+    margin-right: 20px
+}
+
+.personal .experience .title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 40px
+}
+
+.personal .experience .specs .labelname {
+    margin-bottom: 20px
+}
+
+.personal .experience .specs .row:not(:last-of-type) {
+    margin-bottom: 40px
+}
+
+.personal .skills {
+    padding: 40px 20px;
+    border: 1px solid #000;
+    //width: 49%;
+    //height: 450px
+    
+}
+
+.personal .skills i {
+    margin-right: 20px
+}
+
+.personal .skills .title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 40px
+}
+
+.personal .skills .specs .labelname {
+    margin-bottom: 20px
+}
+
+.personal .skills .specs .java-bar {
+    margin-top: 40px;
+    margin-left: 10px;
+    border: 1px solid #000
+}
+
+.personal .skills .specs .java {
+    background-color: #000;
+    color: #fff;
+    padding: 5px 10px;
+    text-align: center;
+    //margin-left: 10px;
+    
+}
+
+.personal .skills .specs .row:not(:last-of-type) {
+    margin-bottom: 40px
+}
+
+.personal .projects {
+    padding: 40px 20px;
+    border: 1px solid #000;
+    //width: 49%;
+    //height: 450px
+    
+}
+
+.personal .projects i {
+    margin-right: 20px
+}
+
+.personal .projects .title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 40px
+}
+
+.personal .projects .specs .labelname {
+    margin-bottom: 20px
+}
+
+.personal .projects .specs a {
+    text-decoration: none;
+    color: #000
+}
+
+.personal .projects .specs .row:not(:last-of-type) {
+    margin-bottom: 40px
+}
+
+.personal .languages {
+    padding: 40px 20px;
+    border: 1px solid #000;
+    //width: 49%;
+    //height: 450px
+    
+}
+
+.personal .languages i {
+    margin-right: 20px
+}
+
+.personal .languages .title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 40px
+}
+
+.personal .languages .specs .labelname {
+    margin-bottom: 20px
+}
+
+.personal .languages .specs .row:not(:last-of-type) {
+    margin-bottom: 40px
+}
+
