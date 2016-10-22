@@ -85,6 +85,10 @@ hr {
     color: #000
 }
 
+.personal .personal-data .specs a:hover {
+    color: #aaa
+}
+
 .personal .education {
     padding: 40px 20px;
     border: 1px solid #000;
@@ -203,6 +207,10 @@ hr {
 .personal .projects .specs a {
     text-decoration: none;
     color: #000
+}
+
+.personal .projects .specs a:hover {
+    color: #aaa
 }
 
 .personal .projects .specs .row:not(:last-of-type) {
