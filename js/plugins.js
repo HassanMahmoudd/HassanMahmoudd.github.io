@@ -227,7 +227,7 @@ $(document).ready(function () {
             
             if(!$(this).is(':last-child')) {
                 
-                $(this).delay(3000).fadeOut(1000, function() {
+                $(this).delay(5000).fadeOut(1000, function() {
                     
                     $(this).removeClass('active').next().addClass('active').fadeIn(1000);
                     
@@ -238,7 +238,7 @@ $(document).ready(function () {
             }
             else {
                 
-                $(this).delay(3000).fadeOut(1000, function() {
+                $(this).delay(5000).fadeOut(1000, function() {
                     
                     $(this).removeClass('active');
                     
