@@ -4,6 +4,8 @@ $(window).load(function () {
     
   'use strict';
     
+    
+    
     $('.loading-hm').fadeOut(2000, function () {
         
         $('body').css("overflow", "auto");
@@ -39,6 +41,8 @@ $(window).load(function () {
 $(document).ready(function () {
     
     'use strict';
+    
+    $('body').width($(window).width());
     
     $('html').niceScroll({
         
@@ -119,6 +123,8 @@ $(document).ready(function () {
         
         myHeader.height($(window).height());
         
+        $('body').width($(window).width());
+        
         $('.header .container').css({
             paddingTop: $('.header').height()/2 - $('.container').height() - 100
         });
@@ -183,6 +189,57 @@ $(document).ready(function () {
             
         }
         
+        // Parallax background effect
+        $('div[data-type="background"]').each(function() {
+
+            if($(window).width() > 768) {
+                var $bgobj = $(this); // assigning the object
+
+                $(window).scroll(function() {
+
+                    // scroll the background at var speed
+                    // the yPos is a negative value because we're scrolling it up
+
+                    var yPos = -($window.scrollTop() / $bgobj.data('speed'));
+
+                    // Put together our final background position
+                    var coords = '50% ' + yPos + 'px';
+
+                    // Move the background
+                    $bgobj.css({ backgroundPosition: coords });
+
+                }); // End window scroll
+            }
+
+            else {
+                var $bgobj = $(this); // assigning the object
+
+                var yPos = -(1 / 20);
+
+                // Put together our final background position
+                var coords = '50% ' + yPos + 'px';
+
+                // Move the background
+                $bgobj.css({ backgroundPosition: coords });
+
+                $(window).scroll(function() {
+
+                    // scroll the background at var speed
+                    // the yPos is a negative value because we're scrolling it up
+
+                    var yPos = -(1 / 20);
+
+                    // Put together our final background position
+                    var coords = '50% ' + yPos + 'px';
+
+                    // Move the background
+                    $bgobj.css({ backgroundPosition: coords });
+
+                }); // End window scroll
+            }
+
+        });
+        
     });
     
     $('.header .container').css({
@@ -236,22 +293,51 @@ $(document).ready(function () {
     // Parallax background effect
     $('div[data-type="background"]').each(function() {
         
-        var $bgobj = $(this); // assigning the object
+        if($(window).width() > 768) {
+            var $bgobj = $(this); // assigning the object
         
-        $(window).scroll(function() {
+            $(window).scroll(function() {
+
+                // scroll the background at var speed
+                // the yPos is a negative value because we're scrolling it up
+
+                var yPos = -($window.scrollTop() / $bgobj.data('speed'));
+
+                // Put together our final background position
+                var coords = '50% ' + yPos + 'px';
+
+                // Move the background
+                $bgobj.css({ backgroundPosition: coords });
+
+            }); // End window scroll
+        }
+        
+        else {
+            var $bgobj = $(this); // assigning the object
             
-            // scroll the background at var speed
-            // the yPos is a negative value because we're scrolling it up
-            
-            var yPos = -($window.scrollTop() / $bgobj.data('speed'));
-            
+            var yPos = -(1 / 20);
+
             // Put together our final background position
             var coords = '50% ' + yPos + 'px';
-            
+
             // Move the background
             $bgobj.css({ backgroundPosition: coords });
-            
-        }); // End window scroll
+        
+            $(window).scroll(function() {
+
+                // scroll the background at var speed
+                // the yPos is a negative value because we're scrolling it up
+
+                var yPos = -(1 / 20);
+
+                // Put together our final background position
+                var coords = '50% ' + yPos + 'px';
+
+                // Move the background
+                $bgobj.css({ backgroundPosition: coords });
+
+            }); // End window scroll
+        }
         
     });
     
