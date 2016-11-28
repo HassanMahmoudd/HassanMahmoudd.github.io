@@ -15,6 +15,8 @@ $(window).load(function () {
     
         
     });
+    
+    
 //    $('body').css('visibility', 'hidden');
 //    //$('.loading-hm').css('display', 'block');
 //    $('.loading-hm').fadeOut(2000, function () {
@@ -47,31 +49,67 @@ $(document).ready(function () {
         
     });
     
-    var width = ($(window).width())/2 + "px";
+    if( $(window).width() < 768 ) {
+            
+        var width = ($(window).width()) + "px";
+
+        var rightTrangleWidth = "0 0 150px " + width;
+
+        var leftTrangleWidth = "150px 0 0 " + width;
+
+        var leftTrangleWidthInstructor = "150px " + width + " 0 0";
+
+        var rightTrangleWidthInstructor = "0 " + width + " 150px 0";
+
+        $('.header .right-triangle').css("border-width", rightTrangleWidth);
+
+        $('.header .left-triangle').css("border-width", leftTrangleWidth);
+
+        $('#instructor .left-triangle').css("border-width", leftTrangleWidthInstructor);
+
+        $('#instructor .left-down-triangle').css("border-width", leftTrangleWidth);
+
+        $('#instructor .right-triangle').css("border-width", rightTrangleWidthInstructor);
+
+        $('.testim .left-triangle').css("border-width", leftTrangleWidthInstructor);
+
+        $('.testim .left-down-triangle').css("border-width", leftTrangleWidth);
+
+        $('.testim .right-triangle').css("border-width", rightTrangleWidthInstructor);
+
+    }
     
-    var rightTrangleWidth = "0 0 200px " + width;
+    else {
+        
+        var width = ($(window).width())/2 + "px";
     
-    var leftTrangleWidth = "200px 0 0 " + width;
+        var rightTrangleWidth = "0 0 200px " + width;
+
+        var leftTrangleWidth = "200px 0 0 " + width;
+
+        var leftTrangleWidthInstructor = "200px " + width + " 0 0";
+
+        var rightTrangleWidthInstructor = "0 " + width + " 200px 0";
+
+        $('.header .right-triangle').css("border-width", rightTrangleWidth);
+
+        $('.header .left-triangle').css("border-width", leftTrangleWidth);
+
+        $('#instructor .left-triangle').css("border-width", leftTrangleWidthInstructor);
+
+        $('#instructor .left-down-triangle').css("border-width", leftTrangleWidth);
+
+        $('#instructor .right-triangle').css("border-width", rightTrangleWidthInstructor);
+
+        $('.testim .left-triangle').css("border-width", leftTrangleWidthInstructor);
+
+        $('.testim .left-down-triangle').css("border-width", leftTrangleWidth);
+
+        $('.testim .right-triangle').css("border-width", rightTrangleWidthInstructor);
     
-    var leftTrangleWidthInstructor = "200px " + width + " 0 0";
+        
+    }
     
-    var rightTrangleWidthInstructor = "0 " + width + " 200px 0";
-    
-    $('.header .right-triangle').css("border-width", rightTrangleWidth);
-    
-    $('.header .left-triangle').css("border-width", leftTrangleWidth);
-    
-    $('#instructor .left-triangle').css("border-width", leftTrangleWidthInstructor);
-    
-    $('#instructor .left-down-triangle').css("border-width", leftTrangleWidth);
-    
-    $('#instructor .right-triangle').css("border-width", rightTrangleWidthInstructor);
-    
-    $('.testim .left-triangle').css("border-width", leftTrangleWidthInstructor);
-    
-    $('.testim .left-down-triangle').css("border-width", leftTrangleWidth);
-    
-    $('.testim .right-triangle').css("border-width", rightTrangleWidthInstructor);
     
     var myHeader = $('.header');
     
@@ -81,6 +119,74 @@ $(document).ready(function () {
         
         myHeader.height($(window).height());
         
+        $('.header .container').css({
+            paddingTop: $('.header').height()/2 - $('.container').height() - 100
+        });
+        
+        if( $(window).width() < 768 ) {
+            
+            var width = ($(window).width()) + "px";
+    
+            var rightTrangleWidth = "0 0 150px " + width;
+
+            var leftTrangleWidth = "150px 0 0 " + width;
+
+            var leftTrangleWidthInstructor = "150px " + width + " 0 0";
+
+            var rightTrangleWidthInstructor = "0 " + width + " 150px 0";
+            
+            $('.header .right-triangle').css("border-width", rightTrangleWidth);
+
+            $('.header .left-triangle').css("border-width", leftTrangleWidth);
+
+            $('#instructor .left-triangle').css("border-width", leftTrangleWidthInstructor);
+
+            $('#instructor .left-down-triangle').css("border-width", leftTrangleWidth);
+
+            $('#instructor .right-triangle').css("border-width", rightTrangleWidthInstructor);
+
+            $('.testim .left-triangle').css("border-width", leftTrangleWidthInstructor);
+
+            $('.testim .left-down-triangle').css("border-width", leftTrangleWidth);
+
+            $('.testim .right-triangle').css("border-width", rightTrangleWidthInstructor);
+            
+        }
+        
+        else {
+            
+            var width = ($(window).width())/2 + "px";
+    
+            var rightTrangleWidth = "0 0 200px " + width;
+
+            var leftTrangleWidth = "200px 0 0 " + width;
+
+            var leftTrangleWidthInstructor = "200px " + width + " 0 0";
+
+            var rightTrangleWidthInstructor = "0 " + width + " 200px 0";
+
+            $('.header .right-triangle').css("border-width", rightTrangleWidth);
+
+            $('.header .left-triangle').css("border-width", leftTrangleWidth);
+
+            $('#instructor .left-triangle').css("border-width", leftTrangleWidthInstructor);
+
+            $('#instructor .left-down-triangle').css("border-width", leftTrangleWidth);
+
+            $('#instructor .right-triangle').css("border-width", rightTrangleWidthInstructor);
+
+            $('.testim .left-triangle').css("border-width", leftTrangleWidthInstructor);
+
+            $('.testim .left-down-triangle').css("border-width", leftTrangleWidth);
+
+            $('.testim .right-triangle').css("border-width", rightTrangleWidthInstructor);
+            
+        }
+        
+    });
+    
+    $('.header .container').css({
+        paddingTop: $('.header').height()/2 - $('.container').height() - 100
     });
     
     $('.links li a').click(function() {
