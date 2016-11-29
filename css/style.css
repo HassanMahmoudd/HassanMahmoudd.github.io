@@ -618,7 +618,7 @@ ul {
 
 
 .testim {
-    background: url('../images/testimBG04.jpg') top left fixed;
+    background: url('../images/testimBG04.jpg') top left no-repeat fixed;
     background-color: #fff;
     -webkit-background-size: cover;
     -moz-background-size: cover;

@@ -41,14 +41,15 @@ xmlns:fb="http://www.facebook.com/2008/fbml">
         <![endif]-->
     </head>
     <body>
-        <div class="navbar-custom">
+        <div class="navbar-custom-cv">
             <div class="container">
-                <div class="brand">
+                <!--<div class="brand">-->
                     <!--<h2><strong>H</strong>assan <strong>M</strong>ahmoud</h2>-->
 <!--                    <a href="index.html"><img src="images/Brand-01-black-Noshadow.png"></a>-->
-                    <a href="index.html">Home</a>
-                </div>
+                    <!--<a href="index.html">Home</a>-->
+                <!--</div>-->
                 <ul class="links">
+                    <li class="pull-left"><a href="index.html">Home</a></li>
                     <li class="pull-right"><a href="resume.html">Resume</a></li>
                 </ul>
                 <div class="clearfix"></div>
@@ -63,15 +64,16 @@ xmlns:fb="http://www.facebook.com/2008/fbml">
                         <img class="" src="images/resume-photo-bg.png">
                     </div>
                 </div>
+                <h1 class="text-center">Hassan Mahmoud</h1>
+                <h3 class="text-center">Undergraduate Computer Engineering Student</h3>
             </div>
-            <h1 class="text-center">Hassan Mahmoud</h1>
-            <h3 class="text-center">Undergraduate Computer Engineering Student</h3>
+            
         </div>
         
         <div class="personal">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-6 personal-data wow fadeInLeft" data-wow-duration="1s" data-wow-offset="400">
+                    <div class="col-sm-6 col-xs-12 personal-data wow fadeInLeft" data-wow-duration="1s" data-wow-offset="400">
                         <div class="title">
                             <i class="fa fa-user fa-lg"></i> <span>Personal Data</span>
                         </div>
@@ -144,7 +146,7 @@ xmlns:fb="http://www.facebook.com/2008/fbml">
                             </ul>
                         </div>
                     </div>
-                    <div class="col-sm-6 education wow fadeInRight" data-wow-duration="1s" data-wow-offset="400">
+                    <div class="col-sm-6 col-xs-12 education wow fadeInRight" data-wow-duration="1s" data-wow-offset="400">
                         <div class="title">
                             <i class="fa fa-university fa-lg"></i> <span>Education</span>
                         </div>
@@ -199,6 +201,7 @@ xmlns:fb="http://www.facebook.com/2008/fbml">
                                             Junior Web Developer
                                         </div>
                                     </div>
+                                    <hr class="visible-xs">
                                     <div class="col-sm-5 col-sm-offset-1 wow fadeInRight" data-wow-duration="1s" data-wow-offset="200">
                                         <div class="col-sm-8 labelname">
                                             <i class="fa fa-thumb-tack fa-md"></i> <strong>Oct 2016 - Sept 2016</strong>
@@ -213,9 +216,7 @@ xmlns:fb="http://www.facebook.com/2008/fbml">
                                             Web Developer Intern
                                         </div>
                                     </div>
-                                </div>
-                                <hr>
-                                <div class="row">
+                                    <hr>
                                     <div class="col-sm-5 wow fadeInLeft" data-wow-duration="1s" data-wow-offset="200">
                                         <div class="col-sm-8 labelname">
                                             <i class="fa fa-thumb-tack fa-md"></i> <strong>Dec 2015 - Present</strong>
@@ -230,6 +231,7 @@ xmlns:fb="http://www.facebook.com/2008/fbml">
                                             Technical Member
                                         </div>
                                     </div>
+                                    <hr class="visible-xs">
                                     <div class="col-sm-5 col-sm-offset-1 wow fadeInRight" data-wow-duration="1s" data-wow-offset="200">
                                         <div class="col-sm-8 labelname">
                                             <i class="fa fa-thumb-tack fa-md"></i> <strong>Jul 2016 - Present</strong>
@@ -244,10 +246,7 @@ xmlns:fb="http://www.facebook.com/2008/fbml">
                                             Media Member
                                         </div>
                                     </div>
-                                </div>
-                                <hr>
-                            
-                                <div class="row">
+                                    <hr>
                                     <div class="col-sm-5 wow fadeInLeft" data-wow-duration="1s" data-wow-offset="200">
                                         <div class="col-sm-8 labelname">
                                             <i class="fa fa-thumb-tack fa-md"></i> <strong>Aug 2015 - Sep 2015</strong>
@@ -263,6 +262,17 @@ xmlns:fb="http://www.facebook.com/2008/fbml">
                                         </div>
                                     </div>
                                 </div>
+<!--
+                                <hr>
+                                <div class="row">
+                                    
+                                </div>
+                                <hr>
+                            
+                                <div class="row">
+                                    
+                                </div>
+-->
                                 
                         </div>
                     </div>
@@ -300,9 +310,6 @@ xmlns:fb="http://www.facebook.com/2008/fbml">
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            
-                                <div class="row">
                                     <div class="col-sm-5 wow fadeInLeft" data-wow-duration="1s" data-wow-offset="200">
                                         <div class="col-sm-8 labelname">
                                             <i class="fa fa-thumb-tack fa-md"></i> <strong>C#</strong>
@@ -323,10 +330,6 @@ xmlns:fb="http://www.facebook.com/2008/fbml">
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            
-                            
-                                <div class="row">
                                     <div class="col-sm-5 wow fadeInLeft" data-wow-duration="1s" data-wow-offset="200">
                                         <div class="col-sm-8 labelname">
                                             <i class="fa fa-thumb-tack fa-md"></i> <strong>Laravel</strong>
@@ -347,11 +350,8 @@ xmlns:fb="http://www.facebook.com/2008/fbml">
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            
-                                <div class="row">
                                     <div class="col-sm-5 wow fadeInLeft" data-wow-duration="1s" data-wow-offset="200">
-                                        <div class="col-sm-8 labelname">
+                                        <div class="col-sm-10 labelname">
                                             <i class="fa fa-thumb-tack fa-md"></i> <strong>Javascript &amp; jQuery</strong>
                                         </div>
                                         <div class="labelname java-bar">
@@ -371,6 +371,21 @@ xmlns:fb="http://www.facebook.com/2008/fbml">
                                         </div>
                                     </div>
                                 </div>
+                            
+<!--
+                                <div class="row">
+                                    
+                                </div>
+                            
+                            
+                                <div class="row">
+                                    
+                                </div>
+                            
+                                <div class="row">
+                                    
+                                </div>
+-->
                                 
                         </div>
                     </div>
@@ -405,7 +420,7 @@ xmlns:fb="http://www.facebook.com/2008/fbml">
                                             <strong>Free Host: </strong><a href="https://hassanmahmoudd.github.io" target="_blank"><br>hassanmahmoudd.github.io</a>
                                         </div>
                                     </div>
-                                    
+                                    <hr class="visible-xs">
                                     <div class="col-sm-5 col-sm-offset-1 wow fadeInRight" data-wow-duration="1s" data-wow-offset="200">
                                         <div class="col-sm-8 labelname">
                                             <i class="fa fa-thumb-tack fa-md"></i> <strong>Simple Social Network</strong>
@@ -424,9 +439,7 @@ Social-Network" target="_blank"><i class="fa fa-github fa-2x"></i></a>
                                             <strong>Free Host: </strong><a href="https://socialnetworkweb.herokuapp.com" target="_blank">socialnetworkweb.herokuapp.com</a>
                                         </div>
                                     </div>
-                                </div>
-                                <hr>
-                                <div class="row">
+                                    <hr>
                                     <div class="col-sm-5 wow fadeInLeft" data-wow-duration="1s" data-wow-offset="200">
                                         <div class="col-sm-8 labelname">
                                             <i class="fa fa-thumb-tack fa-md"></i> <strong>Photista</strong>
@@ -441,6 +454,7 @@ Social-Network" target="_blank"><i class="fa fa-github fa-2x"></i></a>
                                             <a href="https://github.com/HassanMahmoudd/Photista" target="_blank"><i class="fa fa-github fa-2x"></i></a>
                                         </div>
                                     </div>
+                                    <hr class="visible-xs">
                                     <div class="col-sm-5 col-sm-offset-1 wow fadeInRight" data-wow-duration="1s" data-wow-offset="200">
                                         <div class="col-sm-8 labelname">
                                             <i class="fa fa-thumb-tack fa-md"></i> <strong>Painter</strong>
@@ -455,11 +469,7 @@ Social-Network" target="_blank"><i class="fa fa-github fa-2x"></i></a>
                                             <a href="https://github.com/HassanMahmoudd/Paint-App" target="_blank"><i class="fa fa-github fa-2x"></i></a>
                                         </div>
                                     </div>
-                                    
-                                </div>
-                            
-                                <hr>
-                                <div class="row">
+                                    <hr>
                                     <div class="col-sm-5 wow fadeInLeft" data-wow-duration="1s" data-wow-offset="200">
                                         <div class="col-sm-8 labelname">
                                             <i class="fa fa-thumb-tack fa-md"></i> <strong>SIC Assembler</strong>
@@ -475,6 +485,7 @@ Social-Network" target="_blank"><i class="fa fa-github fa-2x"></i></a>
 SIC-Assembler" target="_blank"><i class="fa fa-github fa-2x"></i></a>
                                         </div>
                                     </div>
+                                    <hr class="visible-xs">
                                     <div class="col-sm-5 col-sm-offset-1 wow fadeInRight" data-wow-duration="1s" data-wow-offset="200">
                                         <div class="col-sm-8 labelname">
                                             <i class="fa fa-thumb-tack fa-md"></i> <strong>Quiz Application</strong>
@@ -490,11 +501,8 @@ SIC-Assembler" target="_blank"><i class="fa fa-github fa-2x"></i></a>
 Quiz-Application" target="_blank"><i class="fa fa-github fa-2x"></i></a>
                                         </div>
                                     </div>
-                                    
-                                </div>
-                            <hr>
-                            <div class="row">
-                                <div class="col-sm-5 wow fadeInLeft" data-wow-duration="1s" data-wow-offset="200">
+                                    <hr>
+                                    <div class="col-sm-5 wow fadeInLeft" data-wow-duration="1s" data-wow-offset="200">
                                         <div class="col-sm-8 labelname">
                                             <i class="fa fa-thumb-tack fa-md"></i> <strong>Simple Interpreter</strong>
                                         </div>
@@ -506,9 +514,10 @@ Quiz-Application" target="_blank"><i class="fa fa-github fa-2x"></i></a>
                                         </div>
                                         <div class="col-sm-8 labelname">
                                             <a href="https://github.com/HassanMahmoudd/
-Simple-Interpreter" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+    Simple-Interpreter" target="_blank"><i class="fa fa-github fa-2x"></i></a>
                                         </div>
                                     </div>
+                                    <hr class="visible-xs">
                                     <div class="col-sm-5 col-sm-offset-1 wow fadeInRight" data-wow-duration="1s" data-wow-offset="200">
                                         <div class="col-sm-8 labelname">
                                             <i class="fa fa-thumb-tack fa-md"></i> <strong>Design &amp; Retouching</strong>
@@ -523,9 +532,7 @@ Simple-Interpreter" target="_blank"><i class="fa fa-github fa-2x"></i></a>
                                             <a href="https://www.behance.net/Hassan_Mahmoud" target="_blank"><i class="fa fa-behance fa-lg"></i></a>
                                         </div>
                                     </div>
-                                    
-                                </div>
-                                
+                            </div>
                         </div>
                     </div>
                     
@@ -550,6 +557,7 @@ Simple-Interpreter" target="_blank"><i class="fa fa-github fa-2x"></i></a>
                                             Native Arabic
                                         </div>
                                     </div>
+                                    <hr class="visible-xs">
                                     <div class="col-sm-5 col-sm-offset-1 wow fadeInRight" data-wow-duration="1s" data-wow-offset="100">
                                         <div class="col-sm-8 labelname">
                                             <i class="fa fa-thumb-tack fa-md"></i> <strong>English</strong>
@@ -581,7 +589,7 @@ Simple-Interpreter" target="_blank"><i class="fa fa-github fa-2x"></i></a>
         <section class="loading-hm wow pulse infinite">
         </section>
         
-        <div id="scroll-top">
+        <div id="scroll-top" class="hidden-xs">
             <i class="fa fa-chevron-up fa-3x"></i>
         </div>
         

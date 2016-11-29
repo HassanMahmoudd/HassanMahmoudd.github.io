@@ -18,9 +18,13 @@ $(document).ready(function () {
     
     //myHeader.height($(window).height());
     
+    $('body').width($(window).width());
+    
     $(window).resize(function() {
         
        // myHeader.height($(window).height());
+        
+        $('body').width($(window).width());
         
     });
     
