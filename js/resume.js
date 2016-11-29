@@ -18,13 +18,13 @@ $(document).ready(function () {
     
     //myHeader.height($(window).height());
     
-    $('body').width($(window).width());
+    $('body, html').width($(window).width());
     
     $(window).resize(function() {
         
        // myHeader.height($(window).height());
         
-        $('body').width($(window).width());
+        $('body, html').width($(window).width());
         
     });
     
@@ -77,6 +77,8 @@ $(window).load(function () {
     
     
     'use strict';
+    
+    $('body, html').width($(window).width());
     
 //    $('.loading-overlay .spinner').fadeOut(2000, function () {
 //        

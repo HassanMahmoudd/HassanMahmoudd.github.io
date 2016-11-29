@@ -754,7 +754,7 @@ ul {
 
 @media (max-width: 768px) {
     .testim {
-        background: url('../images/testimBG04.jpg') center center no-repeat fixed;
+        background: url('../images/testimBG04.jpg') center center no-repeat;
         text-shadow: 0px 0px 0.5px #555;
         -webkit-font-smoothing: antialiased;
         text-rendering: optimizeLegibility;

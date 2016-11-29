@@ -9,6 +9,19 @@ hr {
     color: #aaa
 }
 
+/*
+.hm-background {
+    padding-bottom: 40px;
+    background: url('../images/resume-bg.png') center 48% no-repeat fixed;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;    
+}
+*/
+
 .navbar-custom-cv .brand {
     margin-top: 38px
 }
@@ -66,15 +79,18 @@ hr {
 }
 
 .resume-header-row {
-    height: 250px
+    height: 250px;
+    z-index: 99999
 }
 
 .resume-header .resume-photo {
     height: 100%;
+    z-index: 99999
 }
 
 .resume-header .resume-photo img {
     height: 100%;
+    z-index: 99999
 }
 
 .resume-header h1 {

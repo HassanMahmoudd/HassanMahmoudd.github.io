@@ -2,9 +2,9 @@
 $(window).load(function () {
     
     
-  'use strict';
+    'use strict';
     
-    
+    $('body, html').width($(window).width());
     
     $('.loading-hm').fadeOut(2000, function () {
         
@@ -42,7 +42,7 @@ $(document).ready(function () {
     
     'use strict';
     
-    $('body').width($(window).width());
+    $('body, html').width($(window).width());
     
     $('html').niceScroll({
         
@@ -123,7 +123,7 @@ $(document).ready(function () {
         
         myHeader.height($(window).height());
         
-        $('body').width($(window).width());
+        $('body, html').width($(window).width());
         
         $('.header .container').css({
             paddingTop: $('.header').height()/2 - $('.container').height() - 100
