@@ -754,7 +754,12 @@ ul {
 
 @media (max-width: 768px) {
     .testim {
-        background: url('../images/testimBG04.jpg') center center no-repeat;
+        background: url('../images/testimBG04.jpg') center center;
+        background-color: #fff;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
         text-shadow: 0px 0px 0.5px #555;
         -webkit-font-smoothing: antialiased;
         text-rendering: optimizeLegibility;
