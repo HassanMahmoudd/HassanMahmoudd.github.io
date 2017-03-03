@@ -141,7 +141,7 @@ hr {
     padding: 40px 20px;
     border: 1px solid #000;
     width: 49%;
-    height: 450px
+    height: 493px
     
 }
 
@@ -157,6 +157,10 @@ hr {
 
 .personal .education .specs .labelname {
     margin-bottom: 30px
+}
+
+.personal .education .specs .labelname a{
+    margin-left: 10px
 }
 
 .personal .education .specs .row:not(:last-of-type) {
@@ -201,6 +205,10 @@ hr {
 
 .personal .experience .specs .labelname {
     margin-bottom: 20px
+}
+
+.personal .experience .specs .labelname a{
+    margin-left: 10px
 }
 
 .personal .experience .specs .row:not(:last-of-type) {
