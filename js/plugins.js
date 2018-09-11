@@ -74,6 +74,18 @@ $(document).ready(function () {
         $('#instructor .left-down-triangle').css("border-width", leftTrangleWidth);
 
         $('#instructor .right-triangle').css("border-width", rightTrangleWidthInstructor);
+        
+        $('.publications .left-triangle').css("border-width", leftTrangleWidthInstructor);
+
+        $('.publications .left-down-triangle').css("border-width", leftTrangleWidth);
+
+        $('.publications .right-triangle').css("border-width", rightTrangleWidthInstructor);
+        
+        $('.certificates .left-triangle').css("border-width", leftTrangleWidthInstructor);
+
+        $('.certificates .left-down-triangle').css("border-width", leftTrangleWidth);
+
+        $('.certificates .right-triangle').css("border-width", rightTrangleWidthInstructor);
 
         $('.testim .left-triangle').css("border-width", leftTrangleWidthInstructor);
 
@@ -104,6 +116,18 @@ $(document).ready(function () {
         $('#instructor .left-down-triangle').css("border-width", leftTrangleWidth);
 
         $('#instructor .right-triangle').css("border-width", rightTrangleWidthInstructor);
+        
+        $('.publications .left-triangle').css("border-width", leftTrangleWidthInstructor);
+
+        $('.publications .left-down-triangle').css("border-width", leftTrangleWidth);
+
+        $('.publications .right-triangle').css("border-width", rightTrangleWidthInstructor);
+        
+        $('.certificates .left-triangle').css("border-width", leftTrangleWidthInstructor);
+
+        $('.certificates .left-down-triangle').css("border-width", leftTrangleWidth);
+
+        $('.certificates .right-triangle').css("border-width", rightTrangleWidthInstructor);
 
         $('.testim .left-triangle').css("border-width", leftTrangleWidthInstructor);
 
@@ -150,6 +174,18 @@ $(document).ready(function () {
             $('#instructor .left-down-triangle').css("border-width", leftTrangleWidth);
 
             $('#instructor .right-triangle').css("border-width", rightTrangleWidthInstructor);
+            
+            $('.publications .left-triangle').css("border-width", leftTrangleWidthInstructor);
+
+            $('.publications .left-down-triangle').css("border-width", leftTrangleWidth);
+
+            $('.publications .right-triangle').css("border-width", rightTrangleWidthInstructor);
+            
+            $('.certificates .left-triangle').css("border-width", leftTrangleWidthInstructor);
+
+            $('.certificates .left-down-triangle').css("border-width", leftTrangleWidth);
+
+            $('.certificates .right-triangle').css("border-width", rightTrangleWidthInstructor);
 
             $('.testim .left-triangle').css("border-width", leftTrangleWidthInstructor);
 
@@ -180,6 +216,18 @@ $(document).ready(function () {
             $('#instructor .left-down-triangle').css("border-width", leftTrangleWidth);
 
             $('#instructor .right-triangle').css("border-width", rightTrangleWidthInstructor);
+            
+            $('.publications .left-triangle').css("border-width", leftTrangleWidthInstructor);
+
+            $('.publications .left-down-triangle').css("border-width", leftTrangleWidth);
+
+            $('.publications .right-triangle').css("border-width", rightTrangleWidthInstructor);
+            
+            $('.certificates .left-triangle').css("border-width", leftTrangleWidthInstructor);
+
+            $('.certificates .left-down-triangle').css("border-width", leftTrangleWidth);
+
+            $('.certificates .right-triangle').css("border-width", rightTrangleWidthInstructor);
 
             $('.testim .left-triangle').css("border-width", leftTrangleWidthInstructor);
 
@@ -272,13 +320,39 @@ $(document).ready(function () {
     
     $('button.cv').click(function () {
         
-        window.location.href = "resume.html";
+//        window.location.href = "resume.html";
+        window.open(
+          'https://drive.google.com/file/d/15VPHR4UOhv_tadRBK6-SYEk1HRnq4mFl/view?usp=sharing',
+          '_blank' // <- This is what makes it open in a new window.
+        );
         
     });
     
     $(".features .box i").hover(function(){
         
         $(this).siblings().css("color", "white");
+        
+        }, function(){
+        
+        $(this).siblings("h3").css("color", "#505050");
+        
+        $(this).siblings("p").css("color", "#888");
+    });
+    
+    $(".certificates .box i").hover(function(){
+        
+        $(this).siblings().css("color", "white");
+        
+        }, function(){
+        
+        $(this).siblings("h3").css("color", "#505050");
+        
+        $(this).siblings("p").css("color", "#888");
+    });
+    
+    $(".publications .box i").hover(function(){
+        
+        $(this).siblings().css("color", "black");
         
         }, function(){
         
@@ -419,7 +493,7 @@ $(document).ready(function () {
             
             if(!$(this).is(':last-child')) {
                 
-                $(this).delay(5000).fadeOut(1000, function() {
+                $(this).delay(7500).fadeOut(1000, function() {
                     
                     $(this).removeClass('active').next().addClass('active').fadeIn(1000);
                     
@@ -430,7 +504,7 @@ $(document).ready(function () {
             }
             else {
                 
-                $(this).delay(5000).fadeOut(1000, function() {
+                $(this).delay(7500).fadeOut(1000, function() {
                     
                     $(this).removeClass('active');
                     
@@ -491,7 +565,7 @@ $(document).ready(function () {
         $(this).click(function() {
             //console.log('hello');
             modal.style.display = "block";
-            modalImg.src = $(this).siblings('img').attr('src');
+            modalImg.src = $(this).siblings('img').data('cover');
             captionText.innerHTML = $(this).siblings('img').attr('alt');    
         });
         
