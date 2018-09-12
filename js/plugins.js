@@ -54,7 +54,9 @@ $(document).ready(function () {
     });
     
     if( $(window).width() < 768 ) {
-            
+        
+        $('body, html').width($(window).width());
+        
         var width = ($(window).width()) + "px";
 
         var rightTrangleWidth = "0 0 150px " + width;
@@ -96,6 +98,8 @@ $(document).ready(function () {
     }
     
     else {
+        
+        $('body, html').width($(window).width());
         
         var width = ($(window).width())/2 + "px";
     
@@ -155,6 +159,8 @@ $(document).ready(function () {
         
         if( $(window).width() < 768 ) {
             
+            $('body, html').width($(window).width());
+            
             var width = ($(window).width()) + "px";
     
             var rightTrangleWidth = "0 0 150px " + width;
@@ -196,6 +202,8 @@ $(document).ready(function () {
         }
         
         else {
+            
+            $('body, html').width($(window).width());
             
             var width = ($(window).width())/2 + "px";
     
