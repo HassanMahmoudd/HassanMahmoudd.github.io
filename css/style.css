@@ -854,7 +854,7 @@ ul {
     }
 
     .certificates h1.designs {
-        font-size: 30px;
+        font-size: 40px;
         left: 15%
     }
     
@@ -1043,7 +1043,7 @@ ul {
         margin: auto;
         display: block;
         width: auto;
-        max-width: 700px;
+        max-width: auto;
     }
 
     /* Caption of Modal Image (Image Text) - Same Width as the Image */
@@ -1051,7 +1051,7 @@ ul {
         margin: auto;
         display: block;
         width: auto;
-        max-width: 700px;
+        max-width: auto;
         text-align: center;
         color: #ccc;
         padding: 10px 0;
@@ -1360,12 +1360,12 @@ ul {
 #caption {
     margin: auto;
     display: block;
-    width: 80%;
-    max-width: 700px;
+    width: 100%;
+    max-width: auto;
     text-align: center;
     color: #ccc;
     padding: 10px 0;
-    height: 150px;
+    height: auto;
 }
 
 /* Add Animation - Zoom in the Modal */
