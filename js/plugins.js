@@ -56,6 +56,8 @@ $(document).ready(function () {
     if( $(window).width() < 768 ) {
             
         var width = ($(window).width()) + "px";
+        
+        $(window).width() = width
 
         var rightTrangleWidth = "0 0 150px " + width;
 
