@@ -41,7 +41,7 @@ $(window).load(function () {
 $(document).ready(function () {
     
     'use strict';
-    
+//    $(document).width($(window).width());
     $('body, html').width($(window).width());
     
     $('html').niceScroll({
@@ -54,6 +54,9 @@ $(document).ready(function () {
     });
     
     if( $(window).width() < 768 ) {
+        console.log($(document).width())
+        console.log($(window).width())
+        
         
         $('body, html').width($(window).width());
         
@@ -98,7 +101,6 @@ $(document).ready(function () {
     }
     
     else {
-        
         $('body, html').width($(window).width());
         
         var width = ($(window).width())/2 + "px";
@@ -150,7 +152,6 @@ $(document).ready(function () {
     $(window).resize(function() {
         
         myHeader.height($(window).height());
-        
         $('body, html').width($(window).width());
         
         $('.header .container').css({
@@ -158,7 +159,6 @@ $(document).ready(function () {
         });
         
         if( $(window).width() < 768 ) {
-            
             $('body, html').width($(window).width());
             
             var width = ($(window).width()) + "px";
@@ -202,7 +202,6 @@ $(document).ready(function () {
         }
         
         else {
-            
             $('body, html').width($(window).width());
             
             var width = ($(window).width())/2 + "px";

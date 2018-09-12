@@ -10,6 +10,8 @@
 body {
     overflow: hidden;
     font-family: 'proxima-nova', 'Raleway', Helvetica, sans-serif;
+    overflow-x: hidden !important;
+    position: relative !important;
 }
 
 h1,h2,h3,h4,h5,.lead {
