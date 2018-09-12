@@ -559,6 +559,15 @@ ul {
     color: #888
 }
 
+@media (max-width: 768px) {
+    
+    .academical h4 {
+        font-size: 15px;
+    }
+
+    
+}
+
 
 .publications {
     background-color: #FFF;
@@ -676,6 +685,9 @@ ul {
         left: 5%
     }
     
+    .publications h4.date {
+        font-size: 15px
+    }
     
 }
 
@@ -741,6 +753,15 @@ ul {
 .experience .box p {
     line-height: 2;
     color: #888
+}
+
+@media (max-width: 768px) {
+    
+    .experience h4 {
+        font-size: 15px;
+    }
+
+    
 }
 
 .certificates {
@@ -858,6 +879,10 @@ ul {
     .certificates h1.designs {
         font-size: 40px;
         left: 15%
+    }
+    
+    .certificates h4 {
+        font-size: 15px
     }
     
     
