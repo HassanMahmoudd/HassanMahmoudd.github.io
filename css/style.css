@@ -948,6 +948,11 @@ ul {
     -webkit-filter: grayscale(1);
 }
 
+.our-projects .gallery .row-custom > div.main {
+    
+    margin-bottom: 150px;
+}
+
 .our-projects .gallery .row-custom > div.illustration {
 /*    height: 350px; */
 }
