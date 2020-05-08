@@ -115,7 +115,7 @@ ul {
 
 
 .header {
-    background: url('../images/Slider02.jpg');
+    background: url('../images/Slider04.jpg');
     position: relative;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -214,7 +214,7 @@ ul {
 
 @media (max-width: 768px) {
     .header {
-        background: url('../images/Slider02.jpg') top 50% no-repeat;
+        background: url('../images/Slider04.jpg') top 50% no-repeat;
     }
     
     .header .row {
