@@ -408,6 +408,33 @@ ul {
     text-align: center
 }
 
+#instructor button {
+    background: transparent;
+    padding: 10px 10px;
+    width: 180px;
+    font-size: 18px;
+    border: 2px solid #fff;
+    margin: 0 8px 18px;
+    //border-radius: 0px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    color: #333;
+    
+}
+
+#instructor button .lead{
+    margin: 0
+}
+
+#instructor button:hover {
+    background-color: #fff;
+    border: 2px solid #fff;
+    color: #000;
+    text-shadow: none;
+}
+
+
 #instructor .num {
     display: table;
     font-size: 30px;

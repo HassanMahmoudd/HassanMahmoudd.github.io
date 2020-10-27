@@ -335,6 +335,12 @@ $(document).ready(function () {
         
     });
     
+    $('#detailed_bio').on('click', function(event) {        
+        $('#content_detailed_bio').toggle('show');
+    });
+    
+    $('#content_detailed_bio').hide();
+    
     $(".features .box i").hover(function(){
         
         $(this).siblings().css("color", "white");
