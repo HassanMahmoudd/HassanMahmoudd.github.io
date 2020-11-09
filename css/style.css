@@ -214,7 +214,7 @@ ul {
 
 @media (max-width: 768px) {
     .header {
-        background: url('../images/Slider04.jpg') top 50% no-repeat;
+        background: url('../images/college_flipped_bg.jpg') top 50% no-repeat;
     }
     
     .header .row {

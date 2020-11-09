@@ -339,7 +339,7 @@ $(document).ready(function () {
         $('#content_detailed_bio').toggle('show');
     });
     
-    $('#content_detailed_bio').hide();
+//    $('#content_detailed_bio').hide();
     
     $(".features .box i").hover(function(){
         
