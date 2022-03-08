@@ -79,7 +79,7 @@ ul {
 
 .navbar-custom .links li.active a,
 .navbar-custom .links li a:hover {
-    color: #000;
+    color: #777;
 }
 
 .navbar-custom .links li {
@@ -115,16 +115,19 @@ ul {
 
 
 .header {
-    background: url('../images/college_flipped_bg.jpg');
+    background: url('../images/20210112_mit-ai_01.gif');
     position: relative;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    width: 100%;
+    height: 100%;
 }
 
 .header .overlay {
-    background-color: rgba(0, 0, 0, 0.25);
+    
+    background-color: rgba(0, 0, 0, 0.70);
     position: absolute;
     top: 0;
     left: 0;
@@ -196,7 +199,7 @@ ul {
     width: 180px;
     font-size: 18px;
     border: 2px solid #fff;
-    margin: 0 8px;
+    margin: 0 18px;
     //border-radius: 10px;
     -webkit-transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
@@ -214,7 +217,7 @@ ul {
 
 @media (max-width: 768px) {
     .header {
-        background: url('../images/college_flipped_bg.jpg') top 50% no-repeat;
+        background: url('../images/20210112_mit-ai_01.jpg') top 50% no-repeat;
     }
     
     .header .row {
@@ -269,9 +272,22 @@ ul {
 }
 
 .features {
+    background: url('../images/QgyIco.gif') 50% -50px no-repeat;
     padding: 80px 0;
     overflow: hidden;
     background-color: #000
+}
+
+
+.features .overlay {
+    
+    background-color: rgba(0, 0, 0, 0.70);
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    color: #fff
 }
 /*
 .features .box {
@@ -285,7 +301,7 @@ ul {
 }
 */
 
-.features .box i {
+.features .overlay .box i {
     color: #888;
     width: 120px;
     height: 120px;
@@ -296,26 +312,27 @@ ul {
     transition: all .5s ease-in-out;
      -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
+    margin-top: 270px
 }
 
-.features .box i.fa-code {
+.features .overlay .box i.fa-code {
     font-weight: bolder
 }
 
-.features .box i:hover {
+.features .overlay .box i:hover {
     background-color: #ccc;
     color: black;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
 }
 
-.features .box h3 {
+.features .overlay .box h3 {
 /*    text-transform: uppercase;*/
     font-weight: normal;
     color: #505050
 }
 
-.features .box p {
+.features .overlay .box p {
     line-height: 2;
     color: #888
 }
@@ -330,19 +347,20 @@ ul {
 }
 
 #instructor {
-    background: url('../images/resume-bg.png') 80% 250px no-repeat;
+    background: url('../images/profile_picture_bw.png') 80% 200px no-repeat;
     padding: 120px 0;
     position: relative
 }
 
+
 #instructor .overlay {
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.7);
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    display: none
+    //display: none
 }
 
 #instructor hr {
@@ -467,7 +485,7 @@ ul {
 
 @media (max-width: 768px) {
     #instructor {
-        background: url('../images/resume-bg.png') 50% 200px no-repeat;
+        background: url('../images/profile_picture_bw.png') 50% 200px no-repeat;
     }
     
     #instructor h1.about {
@@ -676,7 +694,7 @@ ul {
 .publications h1.about {
     position: absolute;
     top: 0;
-    right: 15%;
+    right: 7%;
     font-size: 45px;
     color: #ccc;
     z-index: 9999
