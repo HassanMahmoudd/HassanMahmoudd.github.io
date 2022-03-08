@@ -281,7 +281,7 @@ ul {
 
 .features .overlay {
     
-    background-color: rgba(0, 0, 0, 0.70);
+    background-color: rgba(0, 0, 0, 0.3);
     position: relative;
     top: 0;
     left: 0;
@@ -338,12 +338,13 @@ ul {
 }
 
 .instructor {
-    background: url('../images/instructorBGBG.jpg');
+    //background: url('../images/instructorBGBG.png');
     position: relative;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-color: #FFF
 }
 
 #instructor {
@@ -354,7 +355,7 @@ ul {
 
 
 #instructor .overlay {
-    background: rgba(255, 255, 255, 0.7);
+    background: rgba(255, 255, 255, 0.3);
     position: absolute;
     top: 0;
     left: 0;
@@ -694,7 +695,7 @@ ul {
 .publications h1.about {
     position: absolute;
     top: 0;
-    right: 7%;
+    right: 3%;
     font-size: 45px;
     color: #ccc;
     z-index: 9999
@@ -703,7 +704,7 @@ ul {
 .publications h1.designs {
     position: absolute;
     bottom: 0;
-    left: 15%;
+    left: 10%;
     font-size: 45px;
     color: #ccc
 }
@@ -741,6 +742,8 @@ ul {
     overflow: hidden;
     background-color: #000
 }
+
+
 /*
 .features .box {
     width: 30%;
@@ -889,7 +892,7 @@ ul {
 .certificates h1.about {
     position: absolute;
     top: 0;
-    right: 15%;
+    right: 7%;
     font-size: 45px;
     color: #ccc;
     z-index: 9999
