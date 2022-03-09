@@ -79,7 +79,7 @@ ul {
 
 .navbar-custom .links li.active a,
 .navbar-custom .links li a:hover {
-    color: #777;
+    color: #888;
 }
 
 .navbar-custom .links li {
@@ -94,7 +94,7 @@ ul {
 
 .navbar-custom .links li.active,
 .navbar-custom .links li:hover {
-    border-bottom: 2px solid #000
+    border-bottom: 2px solid #888
 }
 
 @media (max-width: 768px) {
@@ -169,7 +169,7 @@ ul {
 }
 
 .header .row {
-    //margin-top: 280px;
+    margin-top: 70px;
     
 }
 
@@ -221,7 +221,8 @@ ul {
     }
     
     .header .row {
-        text-align: center
+        text-align: center;
+        margin-top: 0px;
     }
     
     .header h1 {
@@ -289,6 +290,11 @@ ul {
     right: 0;
     color: #fff
 }
+
+.features .overlay .row {
+    
+    margin-top: 270px
+}
 /*
 .features .box {
     width: 30%;
@@ -312,7 +318,7 @@ ul {
     transition: all .5s ease-in-out;
      -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
-    margin-top: 270px
+    
 }
 
 .features .overlay .box i.fa-code {
@@ -486,8 +492,18 @@ ul {
 
 @media (max-width: 768px) {
     #instructor {
-        background: url('../images/profile_picture_bw.png') 50% 200px no-repeat;
+        background: url('../images/profile_picture_bw.png') 50% 240px no-repeat;
     }
+    
+    #instructor .overlay {
+    background: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    //display: none
+}
     
     #instructor h1.about {
         font-size: 35px;
@@ -698,7 +714,8 @@ ul {
     right: 3%;
     font-size: 45px;
     color: #ccc;
-    z-index: 9999
+    z-index: 9999;
+    margin-top: -5px
 }
 
 .publications h1.designs {
@@ -723,7 +740,7 @@ ul {
 @media (max-width: 768px) {
     
     .publications h1.about {
-        font-size: 35px;
+        font-size: 30px;
     }
 
     .publications h1.designs {
@@ -920,17 +937,29 @@ ul {
 @media (max-width: 768px) {
     
     .certificates h1.about {
-        font-size: 35px;
+        font-size: 30px;
         right: 5%
     }
 
     .certificates h1.designs {
-        font-size: 40px;
+        font-size: 35px;
         left: 15%
     }
     
     .certificates h4 {
         font-size: 15px
+    }
+    
+    .certificates .methodology_1 {
+        height: 260px
+    }
+    
+    .certificates .methodology_2 {
+        height: 160px
+    }
+    
+    .certificates .results {
+        height: 120px
     }
     
     
@@ -1304,7 +1333,7 @@ ul {
 
         position: absolute;
         top: -1%;
-        right: 1%;
+        right: 3%;
         color: #ccc
 
     }
