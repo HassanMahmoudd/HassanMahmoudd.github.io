@@ -354,7 +354,7 @@ ul {
 }
 
 #instructor {
-    background: url('../images/profile_picture_bw.png') 80% 200px no-repeat;
+    background: url('../images/Profile_picture_bw_white_sm_bw.png') 80% 200px no-repeat;
     padding: 120px 0;
     position: relative
 }
@@ -492,11 +492,11 @@ ul {
 
 @media (max-width: 768px) {
     #instructor {
-        background: url('../images/profile_picture_bw.png') 50% 240px no-repeat;
+        background: url('../images/Profile_picture_bw_white_sm_bw.png') 50% 170px no-repeat;
     }
     
     #instructor .overlay {
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.7);
     position: absolute;
     top: 0;
     left: 0;
