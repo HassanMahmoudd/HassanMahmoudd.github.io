@@ -329,7 +329,7 @@ $(document).ready(function () {
         
 //        window.location.href = "resume.html";
         window.open(
-          'https://drive.google.com/file/d/1vYh_MuTW3xyphg991dlDHhmUnfFjlNxP/view?usp=sharing',
+          'pdfs/HS_Resume.pdf',
           '_blank' // <- This is what makes it open in a new window.
         );
         
