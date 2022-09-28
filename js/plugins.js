@@ -329,7 +329,7 @@ $(document).ready(function () {
         
 //        window.location.href = "resume.html";
         window.open(
-          'pdfs/HS_Resume.pdf',
+          'documents/HS_Resume.pdf',
           '_blank' // <- This is what makes it open in a new window.
         );
         
