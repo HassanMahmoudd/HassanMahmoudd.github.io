@@ -430,7 +430,7 @@ $(document).ready(function () {
     
     $('#Container').mixItUp({
         load: {
-		filter: '.illustration'
+		filter: '.branding'
 	}
     
 });

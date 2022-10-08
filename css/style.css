@@ -19,6 +19,18 @@ body {
     max-width: 100% !important
 }
 
+p {
+    color: #555
+}
+
+h4 {
+    color: #999
+}
+
+h5 {
+    color: #777
+}
+
 h1,h2,h3,h4,h5,.lead {
     font-family: 'Droid Sans', sans-serif;
      -webkit-font-smoothing: antialiased;
@@ -166,6 +178,10 @@ ul {
     left: 15%;
     font-size: 45px;
     color: #ccc
+}
+
+.header p {
+    color: #fff
 }
 
 .header .row {
@@ -354,7 +370,7 @@ ul {
 }
 
 #instructor {
-    background: url('../images/Profile_picture_bw_white_sm_bw.png') 80% 200px no-repeat;
+    background: url('../images/Profile_picture_bw_white_sm_bw.png') 80% 880px no-repeat;
     padding: 120px 0;
     position: relative
 }
